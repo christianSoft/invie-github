@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Proyecto</title>
+    <title>Proyecto rama RD</title>
     <style media="screen">
       body {
         margin: 0;
@@ -8,11 +8,20 @@
       img {
         max-width: 100%;
         vertical-align: top;
+        /*display: none;*/
+      }
+      img#responsive {
+        display:none
+      }
+      @media screen and (max-width: 768px){
+         img#responsive{
+           display: block;
+        }
       }
     </style>
   </head>
   <body>
-    <img src="header.jpg" alt="">
+    <img src="invie-responsive.png" alt="">
     <img src="logo.gif" alt="">
     <img src="loader.gif" alt="">
   </body>
