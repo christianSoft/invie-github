@@ -1,9 +1,9 @@
 # Descripción
-¿Que ha cambiado?
-
+¿Qué ha cambiado?
+Agregamos al gitignore soporte para Node.js
 - [ ] Frontend
 - [ ] Backend
-- [ ] Configuración del server
+- [x] Configuración del server
 
 # Como puedo probar los cambios?
-en que url y forma puedo ver el update
+Por ejemplo los archivos y la carpeta node_modules ya no se suben al repo, ver el archivo .gitignore completo
